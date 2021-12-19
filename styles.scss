@@ -1,0 +1,42 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+p {
+  margin: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  &__input {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  &__select {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  &__btn {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+.result {
+  &__text {
+    color: green;
+  }
+  &__number {
+    padding: 10px;
+    height: 40px;
+    width: 205px;
+    border: 1px solid green;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
